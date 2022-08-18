@@ -16,6 +16,7 @@ class ListviewScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Listview Screen')),
       body: ListView(
         children: [
+          //lista de peliculas con LISTTILE
           ...peliculas
               .map(
                 (peli) => ListTile(
@@ -24,7 +25,7 @@ class ListviewScreen extends StatelessWidget {
                 ),
               )
               .toList(),
-
+          const Divider(),
           // ListTile(
           //   leading: Icon(Icons.photo_album),
           //   title: Text('Album'),

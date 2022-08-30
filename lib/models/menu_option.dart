@@ -5,7 +5,7 @@ class MenuOption {
   final IconData icon;
   final String name;
   final Widget screen;
-
+  //contructor MenuOption
   MenuOption(
       {required this.route,
       required this.icon,

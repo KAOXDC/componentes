@@ -12,15 +12,15 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: const Text("Home Screen")),
         body: ListView.separated(
-          itemBuilder: (context, index) => ListTile(
-            leading: Icon(menuOption[index].icon),
-            title: Text(menuOption[index].name),
+          itemBuilder: (context, indice) => ListTile(
+            leading: Icon(menuOption[indice].icon),
+            title: Text(menuOption[indice].name),
             onTap: () {
               // final route = MaterialPageRoute(
               //     builder: (context) => const ListviewScreen());
               // Navigator.push(context, route);
 
-              Navigator.pushNamed(context, menuOption[index].route);
+              Navigator.pushNamed(context, menuOption[indice].route);
             },
           ),
           separatorBuilder: (_, __) => const Divider(),

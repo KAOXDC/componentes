@@ -9,9 +9,9 @@ class AppRoutes {
     // TODO: borrar home
     MenuOption(
       route: 'home',
-      name: 'Home Screen',
+      name: 'Pantalla principal',
       screen: const HomeScreen(),
-      icon: Icons.home_max_outlined,
+      icon: Icons.home,
     ),
     MenuOption(
       route: 'listview2',

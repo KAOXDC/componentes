@@ -15,17 +15,41 @@ class CardScreen extends StatelessWidget {
         children: const [
           CustomCardType1(),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: '',
+            imageUrl:
+                "http://portal.senasofiaplus.edu.co/emprendimiento/bannerOferta.jpg",
+          ),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: 'Texto en la Card',
+            imageUrl:
+                "https://fotoarte.com.uy/wp-content/uploads/2019/03/Landscape-fotoarte.jpg",
+          ),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: 'Texto en la Card',
+            imageUrl:
+                "http://portal.senasofiaplus.edu.co/emprendimiento/bannerOferta.jpg",
+          ),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: 'Texto en la Card',
+            imageUrl:
+                "http://portal.senasofiaplus.edu.co/emprendimiento/bannerOferta.jpg",
+          ),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: 'Texto en la Card',
+            imageUrl:
+                "http://portal.senasofiaplus.edu.co/emprendimiento/bannerOferta.jpg",
+          ),
           SizedBox(height: 30),
-          CustomCardType2(),
+          CustomCardType2(
+            name: 'Texto en la Card',
+            imageUrl:
+                "http://portal.senasofiaplus.edu.co/emprendimiento/bannerOferta.jpg",
+          ),
         ],
       ),
     );
